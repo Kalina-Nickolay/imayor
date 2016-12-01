@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "190232046824",
+    "firebase_url": "https://imayor-722c8.firebaseio.com",
+    "project_id": "imayor-722c8",
+    "storage_bucket": "imayor-722c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190232046824:android:c04e7fd3c148ed0d",
+        "android_client_info": {
+          "package_name": "com.imayor.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190232046824-u707e371eb1204rqu4vjalefht3nip5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxIyGFXjqStzNN_Vu8wHGhc79zsI4iD1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

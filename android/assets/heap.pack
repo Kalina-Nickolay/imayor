@@ -1,0 +1,33 @@
+heap.png
+size: 600,199
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Heap1
+  rotate: false
+  xy: 0, 0
+  size: 150, 199
+  orig: 150, 199
+  offset: 0, 0
+  index: -1
+Heap2
+  rotate: false
+  xy: 150, 0
+  size: 150, 199
+  orig: 150, 199
+  offset: 0, 0
+  index: -1
+Heap3
+  rotate: false
+  xy: 300, 0
+  size: 150, 199
+  orig: 150, 199
+  offset: 0, 0
+  index: -1
+Heap4
+  rotate: false
+  xy: 450, 0
+  size: 150, 199
+  orig: 150, 199
+  offset: 0, 0
+  index: -1

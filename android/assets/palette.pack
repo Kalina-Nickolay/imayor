@@ -1,0 +1,103 @@
+palette.png
+size: 630,45
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: noneS
+RubyColor
+  rotate: false
+  xy: 0, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+FieryColor
+  rotate: false
+  xy: 45, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+MustColor
+  rotate: false
+  xy: 90, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+MelColor
+  rotate: false
+  xy: 135, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+BlueColor
+  rotate: false
+  xy: 180, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+SeaColor
+  rotate: false
+  xy: 225
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+WhiteColor
+  rotate: false
+  xy: 270, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+BlackColor
+  rotate: false
+  xy: 315, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+RedColor
+  rotate: false
+  xy: 360, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+GreenColor
+  rotate: false
+  xy: 405, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+LucidColor
+  rotate: false
+  xy: 450, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+FloorGreen
+  rotate: false
+  xy: 495, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+FloorLucid
+  rotate: false
+  xy: 540, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+FloorBlue
+  rotate: false
+  xy: 595, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
