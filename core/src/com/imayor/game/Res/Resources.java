@@ -13,7 +13,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.IntArray;
 
 public class Resources {
-
     //----Базовые цвета----
     private TextureAtlas paletteAtlas;
 
@@ -64,7 +63,6 @@ public class Resources {
 
     //----Громкость музыки и звуков----
     public float volume=1.0f;
-
 
     //----Игровые ресурсы. Служат для дальнейшего графического отображения----
     public int heap1, heap2, heap3, heap4;//Инициализируется при чтении из файла
