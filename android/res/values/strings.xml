@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Я - мэр</string>
-
+    <string name="app_name">Mayor adventure</string>
+    <string name="publisher_id">ca-app-pub-7672875477492085/7301577054</string>
+    <string name="over_banner">ca-app-pub-7672875477492085/7301577054</string>
 </resources>

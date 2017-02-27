@@ -1,51 +1,48 @@
-//login: kalina.moran
-//password: dionatur
+//Пора сделать этот город легендой!
+//Или хотя бы разрушить его
 
 package com.imayor.game;
 
 import com.badlogic.gdx.Game;
-import com.imayor.game.Actors.GameAnswer;
-import com.imayor.game.Actors.GameCard;
-import com.imayor.game.Actors.GameFooter;
-import com.imayor.game.Actors.GameHeader;
-import com.imayor.game.States.GameState;
-import com.imayor.game.States.LoadState;
-import com.imayor.game.States.MenuState;
+import com.badlogic.gdx.Gdx;
+import com.imayor.game.Menu.Game.GameAnswer;
+import com.imayor.game.Menu.Game.GameCard;
+import com.imayor.game.Menu.Game.GameFooter;
+import com.imayor.game.Menu.Game.GameHeader;
+import com.imayor.game.Menu.Game.GameState;
+import com.imayor.game.Menu.MenuState;
+import com.imayor.game.Res.Resources;
+import com.imayor.game.Res.Settings;
 
-public class IMayor /*extends ApplicationAdapter*/ extends Game {
+public class IMayor extends Game{
 
 	//----Хранилища постоянных и переменных величин----
-	public Resources res;
-	public Settings set;
+	public com.imayor.game.Res.Resources res;
+	public com.imayor.game.Res.Settings set;
 	public GameCard card;
 	public GameHeader header;
 	public GameFooter footer;
-	public Statistics stat;
 	public GameAnswer answer;
-
-	//----Переменные для удаления. Реализовано по тупому----
-	public MenuState menustate;
 	public GameState gamestate;
 
-	public int gotovo=0;
-
-	public IMayor () {
+	public adsController controller;
+	//
+	public IMayor(adsController controller) {
+		if (controller != null) {
+			this.controller = controller;
+		} else {
+			this.controller = new DummyAdsController();
+		}
 	}
 
 	@Override
 	public void create () {
-		this.setScreen(new LoadState(this));
-
 		//----Создаём и инициализируем хранилища постоянных и переменных велечин----
 		res = new Resources();
 		set = new Settings(res);
-		card = new GameCard(this);
-		header = new GameHeader(this);
-		footer = new GameFooter(this);
-		stat = new Statistics(this);
-		answer = new GameAnswer(this);
 
-		gotovo=1;
+		this.setScreen(new MenuState(this));
+
 	}
 
 	@Override
@@ -59,4 +56,18 @@ public class IMayor /*extends ApplicationAdapter*/ extends Game {
 	}
 
 
+
+	public void InterstitialAd(){
+		//if (controller.isWifiConnected()) {
+			controller.showInterstitialAd(new Runnable() {
+				@Override
+				public void run() {
+					System.out.println("Interstitial app closed");
+					Gdx.app.exit();
+				}
+			});
+		//} else {
+		//	System.out.println("Interstitial ad not (yet) loaded");
+		//}
+	}
 }

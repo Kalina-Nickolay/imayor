@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "190232046824-tpjnrvqjctm5g8kli438r9jumqgf05e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imayor.game",
+            "certificate_hash": "32C90CADD2FF841E57E680C497DE79E40FF450DE"
+          }
+        },
+        {
           "client_id": "190232046824-u707e371eb1204rqu4vjalefht3nip5o.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190232046824-u707e371eb1204rqu4vjalefht3nip5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

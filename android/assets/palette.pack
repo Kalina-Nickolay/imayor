@@ -1,5 +1,5 @@
 palette.png
-size: 630,45
+size: 675,45
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: noneS
@@ -96,7 +96,14 @@ FloorLucid
   index: -1
 FloorBlue
   rotate: false
-  xy: 595, 0
+  xy: 585, 0
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+FloorBlack
+  rotate: false
+  xy: 630, 0
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
